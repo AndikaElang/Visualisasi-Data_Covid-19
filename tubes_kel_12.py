@@ -23,7 +23,7 @@ from bokeh.layouts import column
 from bokeh.palettes import Viridis3
 
 #Read Data
-df_provinsi = pd.read_csv('data_provinsi.csv')
+df_provinsi = pd.read_csv('https://raw.githubusercontent.com/AndikaElang/tubes-visdat/main/data_provinsi.csv?token=GHSAT0AAAAAABQWQJ3RTF5IDSF6DUUKBERCYPK53CQ')
 df_provinsi
 
 #Dictionary
