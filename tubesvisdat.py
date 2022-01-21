@@ -16,7 +16,7 @@ from bokeh.palettes import Spectral6
 from bokeh.layouts import widgetbox, row, gridplot
 from bokeh.models import Slider, Select
 
-data = pd.read_csv("https://raw.githubusercontent.com/MRifqiWiliatama/tubes-visdat/main/datacovmar.csv")
+data = pd.read_csv("https://raw.githubusercontent.com/AndikaElang/tubes-visdat/main/datacovmar.csv?token=GHSAT0AAAAAABQWQJ3REHFSN65INQGGAK6OYPK2C3A")
 data.set_index('Date', inplace=True)
 data
 
